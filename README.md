@@ -71,6 +71,32 @@ A calculated column was added to account for unknown delay reasons by assigning 
 
 
 
+# (5/8) Dimensional Tables Creation
+
+1. Time Dimension:
+
+Built using DAX to include fields such as hour, minute, time of day, and a unique time key.
+
+
+![Time Dim](https://github.com/user-attachments/assets/0945302e-06f4-4e07-897f-f80d167bb9bc)
+
+2. Date Dimension:
+
+Created using DAX to organize and structure date-related information effectively.
+
+
+![Date Dim](https://github.com/user-attachments/assets/abba1476-7dd2-4aa1-bf53-7182852a716f)
+
+
+3. Cancellation Reason Dimension:
+
+Includes the cancellation code and its corresponding reason to provide detailed insights into canceled flights.
+
+
+
+![Cancelletaion reasons](https://github.com/user-attachments/assets/fc531884-58cb-4375-a0f8-923014685b2e)
+
+
 
 
 
