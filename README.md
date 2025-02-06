@@ -116,14 +116,15 @@ We Create Star Schema
 
 Key Components
 1. Total Flights:
-  DAX Logic: VAR TotalFlights = COUNTROWS(DelayedFlights)
-  Counts the total number of flights in the dataset. This value serves as the denominator for the NPS calculation.
+   
+   Counts the total number of flights in the dataset. This value serves as the denominator for the NPS calculation.
 
- 2. Promoters:
-  Represents flights that meet the following conditions:
+ 3. Promoters:
+
+         Represents flights that meet the following conditions:
     
-  Arrival delay is within an acceptable range (between -10 and 10 minutes).
-    The flight was neither canceled nor diverted.
+          Arrival delay is within an acceptable range (between -10 and 10 minutes).
+            The flight was neither canceled nor diverted.
     
   These flights are considered "on-time" and are seen as positive contributors to performance.
 
