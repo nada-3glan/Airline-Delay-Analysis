@@ -146,4 +146,29 @@ Zero NPS: Implies an equal number of Promoters and Detractors, reflecting a neut
 
 
 
+## 2. On Time Performance Rate
 
+This DAX measure calculates the percentage of flights that arrived on time (within a specified range of delay) compared to the total number of flights that were neither canceled nor diverted. It provides a focused measure of punctuality for flights that successfully operated without major disruptions.
+
+![ONTime Performance Rate](https://github.com/user-attachments/assets/1f966c20-ab7b-4e3f-9299-940c5e703f04)
+
+
+1. On-Time Flights (Numerator):
+
+           Filters and counts flights meeting the following conditions:
+           Arrival delay is between 0 and 10 minutes (inclusive).
+           The flight was not canceled (Cancelled = 0).
+           The flight was not diverted (Diverted = 0).
+           These are considered "on-time" flights.
+
+2. Total Operated Flights (Denominator):
+   
+           Filters and counts flights that:
+           Were not canceled (Cancelled = 0).
+           Were not diverted (Diverted = 0).
+           Represents all flights that were successfully operated, regardless of their punctuality.
+
+3. On-Time Arrival Percentage:
+
+        Divides the number of on-time flights (Numerator) by the total number of operated flights (Denominator).
+        If the denominator is zero (to prevent division errors), the formula returns 0 as the result.
