@@ -6,12 +6,19 @@ The dataset offers comprehensive flight information, including flight dates, air
 # Content 
 
 1- Project Overview
+
 2- DataSet Describtion
+
 3- Tools and Technologies Used
+
 4- Data Preparation and Transformation
+
 5- Dimensional Tables Creation
+
 6- Data Model
+
 7- Analysis Process/Methodology
+
 8- Visualization
 
 
