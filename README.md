@@ -108,7 +108,7 @@ We Create Star Schema
 
 # (7/8) Analysis Process/Methodology
 
-## 1. Flight Performance NPS Calculation
+# 1. Flight Performance NPS Calculation
 
         
 ![NPS](https://github.com/user-attachments/assets/4fb3f9ef-6708-411a-a23e-27142572158c)
@@ -146,7 +146,7 @@ Zero NPS: Implies an equal number of Promoters and Detractors, reflecting a neut
 
 
 
-## 2. On Time Performance Rate %
+# 2. On Time Performance Rate %
 
 This DAX measure calculates the percentage of flights that arrived on time (within a specified range of delay) compared to the total number of flights that were neither canceled nor diverted. It provides a focused measure of punctuality for flights that successfully operated without major disruptions.
 
@@ -172,3 +172,27 @@ This DAX measure calculates the percentage of flights that arrived on time (with
 
         Divides the number of on-time flights (Numerator) by the total number of operated flights (Denominator).
         If the denominator is zero (to prevent division errors), the formula returns 0 as the result.
+
+
+# 3. Peak Delay Hour
+
+This DAX formula calculates the hour of the day when delays are at their highest, known as the Peak Delay Hour. Here’s how it works in simple terms:
+
+
+![Peak Delay Hour](https://github.com/user-attachments/assets/0201d2e2-e301-42f6-b8ba-b914e559ff5d)
+
+
+1. Identify the Maximum Delay:
+
+        The formula first scans through all the hours in the DimTime table and finds the maximum value of the total delay (a measure that sums up all delays). T
+        his maximum value represents the peak delay during a specific hour of the day.
+
+2. Locate the Peak Hour:
+
+        After identifying the maximum delay, the formula filters the time dimension (DimTime) to find the specific hour where the total delay equals this maximum value.
+
+3. Return the Hour:
+
+        Finally, the formula returns the hour of the day (e.g., 15 for 3 PM) that corresponds to the peak delay.
+
+
