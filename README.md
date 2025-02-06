@@ -108,7 +108,40 @@ We Create Star Schema
 
 # (7/8) Analysis Process/Methodology
 
+## 1. Flight Performance NPS Calculation
 
+        
+![NPS](https://github.com/user-attachments/assets/4fb3f9ef-6708-411a-a23e-27142572158c)
+
+
+Key Components
+1. Total Flights:
+  DAX Logic: VAR TotalFlights = COUNTROWS(DelayedFlights)
+  Counts the total number of flights in the dataset. This value serves as the denominator for the NPS calculation.
+
+ 2. Promoters:
+  Represents flights that meet the following conditions:
+    
+  Arrival delay is within an acceptable range (between -10 and 10 minutes).
+    The flight was neither canceled nor diverted.
+    
+  These flights are considered "on-time" and are seen as positive contributors to performance.
+
+  3. Detractors:
+
+  Represents flights that negatively impact performance. These include:
+    Flights that were canceled.
+  Flights with an arrival delay greater than 10 minutes (excluding canceled or diverted flights).
+
+  4. NPS Calculation:
+
+     Computes the percentage difference between Promoters and Detractors relative to the total number of flights.
+      If the denominator (TotalFlights) is zero, the DIVIDE function ensures no division errors occur, returning 0 as the result.
+
+## Interpretation of Results
+Positive NPS: Indicates a higher proportion of "on-time" flights (Promoters) compared to disrupted flights (Detractors).
+Negative NPS: Suggests significant operational challenges, with more canceled or delayed flights than those arriving on time.
+Zero NPS: Implies an equal number of Promoters and Detractors, reflecting a neutral flight performance.
 
 
 
