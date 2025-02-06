@@ -218,7 +218,7 @@ This formula calculates the average weather delay time for flights that were suc
 
 # 5. Average Late AirCraft Delay Time, AVG Carrier Delay reasons in minutes, AVG NAS delay in minutes and AVG security reason delay
 
-        AS AVG Delay Weather 
+        The same aS AVG Delay Weather 
 
 # 6. Additionally, I created several measures to enhance the insights provided by our dashboard, enabling a deeper understanding of flight performance, delay trends, and operational efficiency.
 
