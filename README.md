@@ -99,4 +99,17 @@ Includes the cancellation code and its corresponding reason to provide detailed 
 
 
 
+# (6/8) Data Model
+
+We Create Star Schema
+
+![Data Model](https://github.com/user-attachments/assets/28cacd63-b950-4cf7-8e2d-59c11c0e0289)
+
+
+# (7/8) Analysis Process/Methodology
+
+
+
+
+
 
