@@ -196,3 +196,31 @@ This DAX formula calculates the hour of the day when delays are at their highest
         Finally, the formula returns the hour of the day (e.g., 15 for 3 PM) that corresponds to the peak delay.
 
 
+# 4. AVG Delay Weather Time 
+
+This formula calculates the average weather delay time for flights that were successfully operated (i.e., not canceled or diverted). Here’s how it works:
+
+![AVG Delay Weather](https://github.com/user-attachments/assets/e10ced3a-bac8-4f09-af55-3363f2795e49)
+
+
+1. Focus on Weather Delays:
+
+        The formula looks specifically at the weather delay times recorded for flights.
+        
+2. Exclude Non-Operated Flights:
+
+        It filters out flights that were canceled or diverted, ensuring that only flights that actually departed and arrived are included in the calculation.
+
+3. Calculate the Average:
+
+        After applying the filter, it calculates the average of the weather delay times across the remaining flights.
+
+
+# 5. Average Late AirCraft Delay Time, AVG Carrier Delay reasons in minutes, AVG NAS delay in minutes and AVG security reason delay
+
+        AS AVG Delay Weather 
+
+# 6. Additionally, I created several measures to enhance the insights provided by our dashboard, enabling a deeper understanding of flight performance, delay trends, and operational efficiency.
+
+
+
