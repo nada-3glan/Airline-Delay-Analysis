@@ -62,7 +62,12 @@ Null values were replaced with zeros for consistency.
 ![Replecing Null Values by zero](https://github.com/user-attachments/assets/30c8951e-a07b-467d-8bda-1af68cecf7fd)
 
 
-Unknown Reasons for Delay: A calculated column was added to account for unknown delay reasons by assigning the value from the Arrival Delay column if the other five delay reason columns (or four) contained null or zero values.
+Unknown Reasons for Delay: 
+
+A calculated column was added to account for unknown delay reasons by assigning the value from the Arrival Delay column if the other five delay reason columns (or four) contained null or zero values.
+
+
+<img width="130" alt="Unkown Delay Reasons" src="https://github.com/user-attachments/assets/f4c41191-a32b-4cdd-8020-b94ee455e84f" />
 
 
 
