@@ -146,7 +146,7 @@ Zero NPS: Implies an equal number of Promoters and Detractors, reflecting a neut
 
 
 
-## 2. On Time Performance Rate
+## 2. On Time Performance Rate %
 
 This DAX measure calculates the percentage of flights that arrived on time (within a specified range of delay) compared to the total number of flights that were neither canceled nor diverted. It provides a focused measure of punctuality for flights that successfully operated without major disruptions.
 
