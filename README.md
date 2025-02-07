@@ -226,6 +226,12 @@ This formula calculates the average weather delay time for flights that were suc
 
  # (8/8) Visualization
 
+This Report describes a 7-page interactive dashboard for analyzing airline flight data from 2008, covering airline performance, airport metrics, flight details, delay reasons, and cancellations/diversions and there is a summary about project
+
+![Summary](https://github.com/user-attachments/assets/265ca482-0380-4a54-bcc1-f36df2426929)
+
+ 
+
  
 
 
