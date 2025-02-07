@@ -226,11 +226,41 @@ This formula calculates the average weather delay time for flights that were suc
 
  # (8/8) Visualization
 
-This Report describes a 7-page interactive dashboard for analyzing airline flight data from 2008, covering airline performance, airport metrics, flight details, delay reasons, and cancellations/diversions and there is a summary about project
+This Report describes a 7-page interactive dashboard for analyzing airline flight data from 2008, covering airline performance, airport metrics, flight details, delay reasons, and cancellations/diversions.
+
+1. There is a first Page describe a summary about project.
 
 ![Summary](https://github.com/user-attachments/assets/265ca482-0380-4a54-bcc1-f36df2426929)
 
- 
+
+2. Airlines Analysis Page
+
+
+![Airline Analysis](https://github.com/user-attachments/assets/fc79fdf8-e336-41eb-b61a-6ed0c6bc8438)
+
+Key Insights from Airline Analysis Dashboard:
+
+5367 planes, 23 airlines (20 active).
+Mesa Airlines has highest delay rate (83%).
+American & Southwest have large fleets, but on-time arrival varies.
+Arrival/departure punctuality is generally aligned per airline.
+Hawaiian & Aloha have lower on-time percentages.
+Cancellation rates spike in December.
+Overall: Dashboard compares airline performance across various metrics, revealing disparities in delays and on-time percentages, suggesting further investigation into operational factors.
+
+
+  i. Airline Drill Through
+
+![Airline Drill Through](https://github.com/user-attachments/assets/0e5d5121-7b7f-4590-a68c-68d1f9703dd6)
+
+This "Drill Through" page provides a deeper dive into the "Monthly Investigation Analysis" for a specific airline, supplementing the main Airline Analysis dashboard.  Here's a breakdown:
+
+Key Insights:
+
+Daily Flight & Delay Volume: Shows the total flights and total delayed flights for specific days of the month (e.g., the 22nd, 1st, 18th, 13th, 26th). This allows for identifying days with unusually high delays or flight volumes.
+Delay Reasons Breakdown: Visually represents the proportion of delays attributed to different reasons: Late Aircraft, Weather, Carrier, NAS (National Airspace System), and Unknown causes.
+Average Delay Times by Reason: Displays the average delay time (in minutes) for each delay reason. This helps understand which causes lead to the longest delays.
+Cancelled Flights by Reason: Indicates the number of cancellations due to each reason
 
  
 
