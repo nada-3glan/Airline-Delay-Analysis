@@ -312,7 +312,7 @@ In short: This airport experiences high flight volume, substantial delays (espec
 
 
 
-## 4. Flights Analysis
+## 4. Flights Analysis Page
 
 
 ![Fleights Analysis](https://github.com/user-attachments/assets/cebe29df-156b-453b-b814-b1eb67eb76a4)
@@ -338,6 +338,71 @@ In short:  Despite high volume and low cancellations, customer satisfaction is a
 
 
 
+## 5. Delays Analysis Page
+
+![Delays Analysis](https://github.com/user-attachments/assets/b0bac7ea-ce83-465f-ab34-73c89305d5ea)
+
+This "Delay Reasons Analysis" report reveals:
+
+High Volume of Delays: 1 million delayed flights.
+
+Late Aircraft is Major Cause: Average late aircraft delay is 16.29 minutes, significantly higher than other causes (weather 2.4 min, NAS 9.72 min, carrier 12.41 min).
+
+Peak Delay Hour: 5 PM (hour 17) sees the most delays.
+
+Delay Rate by Airline: Southwest has a 72% delay rate, followed by other airlines (specific values unclear).
+
+Early Arrival Rate: Low early arrival rate of ≥9.23%.
+
+On-Time Arrival Percentage: Very low at 18.93%.
+
+Delays by Tail Number: Specific planes (tail numbers) are associated with varying delay counts.
+
+Delays by Day of Week: Friday and Monday show the highest total delay volume.
+
+Delays Over Time: Charts show delay trends by hour, tail number, day of week, and month, with late aircraft delays consistently high.
+
+In short:  Late aircraft are the primary driver of delays, impacting a large portion of flights and resulting in poor on-time performance.  The report identifies specific pain points (peak hours, days of week, tail numbers) for potential intervention.
+
+
+## 6. Cancellation & Diverted Analysis Page
+
+
+![Cancellation   Diverted](https://github.com/user-attachments/assets/f09b0a33-d643-4fa8-ae9c-38356379cddd)
+
+This "Cancellation and Diverted Flights Analysis" report shows:
+
+Low Cancellation Rate: Only 0.03% of flights were cancelled (633 out of 2 million flown).
+
+Significant Diversions: A high number of flights were diverted (7754).
+
+Cancellation Reasons: Cancellations were due to NAS (80 flights), airlines (246 flights), and weather (307 flights).
+
+Weekend Impact: More flights were cancelled on weekends (462) than weekdays (171).
+
+Cancellation Trend: A recent spike in cancellations occurred, likely in November or December.
+
+Diversions by Airline: Specific carriers experienced varying levels of diversions.
+
+Cancellation Hotspots: Charts show cancellations by reason and by destination airport, highlighting specific airports and causes with higher cancellation rates.
+
+In short: Despite a very low cancellation rate overall, a significant number of flights were diverted, and specific periods, causes, and locations experienced more cancellations than others.
+
+
+
+
+# Work Environment & Contributors
+
+### Trello  Work Environment:
+
+. [Trello  Work Environment](https://trello.com/b/tS6xTfZg/airline-delay-analysis-prject)
+
+
+This project was collaboratively managed using Trello, ensuring efficient task tracking, sprint planning, and progress monitoring. Trello facilitated clear communication and assignment of responsibilities among the team members, allowing seamless coordination and timely completion of deliverables. The development team consisted of:
+
+## Contributors:
+
+1- @Khaldsabry
 
 
 
