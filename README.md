@@ -402,7 +402,11 @@ This project was collaboratively managed using Trello, ensuring efficient task t
 
 ## Contributors:
 
-1- Nada Mustafa Aglan https://github.com/nada-3glan 
+1- Khalid Sabry Elshafei
+2- Nada Mostafa Aglan
+3- Dina Ibrahim Hemdan
+
+Each team member played a critical role in achieving the project's objectives, leveraging Trello to stay aligned on priorities and updates throughout the development lifecycle.
 
 
 
