@@ -228,12 +228,12 @@ This formula calculates the average weather delay time for flights that were suc
 
 This Report describes a 7-page interactive dashboard for analyzing airline flight data from 2008, covering airline performance, airport metrics, flight details, delay reasons, and cancellations/diversions.
 
-1. There is a first Page describe a summary about project.
+## 1. There is a first Page describe a summary about project.
 
 ![Summary](https://github.com/user-attachments/assets/265ca482-0380-4a54-bcc1-f36df2426929)
 
 
-2. Airlines Analysis Page
+## 2. Airlines Analysis Page
 
 
 ![Airline Analysis](https://github.com/user-attachments/assets/fc79fdf8-e336-41eb-b61a-6ed0c6bc8438)
@@ -273,9 +273,68 @@ Average Delay Times by Reason: Displays the average delay time (in minutes) for 
 
 Cancelled Flights by Reason: Indicates the number of cancellations due to each reason.
 
- 
+
+## 3. Airports Analysis Page
 
 
+![Airports Analysis](https://github.com/user-attachments/assets/401f0eaa-64bc-48ef-91f9-0dddda85cd4d)
+
+Key Insights from Airport Report:
+
+High average delays: ~43 minutes for both departures and arrivals (8942 airports).
+
+Significant taxi-out time: 18.23 minutes.
+
+Regional distribution: Airports spread globally (map shown), with at least one region labeled "Pacific Ocean".
+
+Delay causes vary by destination: Chart shows average delay times by reason (weather, carrier, etc.) for select airports.
+
+Flight volume vs. cancellations: Chart compares these metrics for key airports (Chicago O'Hare, Atlanta, etc.), revealing potential correlations. Cancellation rates are generally low (under 0.1%).
+
+
+## i. Airline Drill Through
+
+
+![Airports Drill Through](https://github.com/user-attachments/assets/c9d969d2-f889-4e20-9dea-0734d92f56d6)
+
+This airport drill-through report reveals the following:
+
+High Volume: 5367 planes handle 2 million flights, resulting in 1 million delayed flights and 633 cancellations.
+
+Hourly Flight Distribution: A bar chart (likely showing a 24-hour period) indicates flight volume by hour, with the highest activity around hour 17 (likely 5 PM) and lowest around hour 11 (11 AM).
+
+Significant Delays: Average delays are shown for various reasons (aircraft, weather, carrier, NAS, security), with a particularly high average delay due to late aircraft (over 15 minutes).
+
+Taxi Times: Average taxi-out and taxi-in times are displayed, with taxi-out slightly higher than taxi-in.
+
+In short: This airport experiences high flight volume, substantial delays (especially due to late aircraft), and exhibits a typical daily flight pattern with a late afternoon peak.
+
+
+
+
+## 4. Flights Analysis
+
+
+![Fleights Analysis](https://github.com/user-attachments/assets/cebe29df-156b-453b-b814-b1eb67eb76a4)
+
+
+This flight analysis report highlights the following:
+
+High Volume, Low Cancellations: 2 million flights flown with only 633 cancellations (0.03%), despite 7754 diversions.
+
+Negative NPS: A Flight Performance NPS of -90.88 suggests significant customer dissatisfaction.
+
+Peak Flight Times: Busiest flight times are in the late afternoon/evening (5-8 PM), with a lull mid-morning (10-11 AM).
+
+Weekday Dominance: Weekdays account for the majority of flights (73.7%).
+
+On-Time Performance Varies: On-time arrival percentage fluctuates throughout the day and is shown for specific destinations (DEN, LAX, DFW, ATL, ORD), alongside flight volume.
+
+Delays by Cause: Average delay times are broken down by cause (aircraft, weather, NAS, security, unknown), with a wide range in duration.
+
+Cancellation Trend: A line chart shows cancellation rates by month, indicating a recent spike (potentially in November/December).
+
+In short:  Despite high volume and low cancellations, customer satisfaction is a major concern. The report provides detailed insights into flight patterns, delays, and cancellations, allowing for deeper analysis and potential problem identification.
 
 
 
